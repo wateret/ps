@@ -15,7 +15,7 @@ struct DisjointSet {
 			parent[i] = i;
 	}
 
-	int find(int u) const {
+	int find(int u) {
 		if (u == parent[u]) return u;
 		return parent[u] = find(parent[u]);
 	}
