@@ -4,6 +4,7 @@
 //   - Binary search with custom containers
 //   - Solving an optimization problem that can be converted to a "decision problem with binary search"
 
+#include <algorithm>
 #include <vector>
 
 // Same with std::lower_bound
